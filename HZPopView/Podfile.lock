@@ -1,0 +1,19 @@
+PODS:
+  - Masonry (1.0.2)
+  - MMPopupView (1.7.2):
+    - Masonry
+  - TBActionSheet (1.5.3)
+
+DEPENDENCIES:
+  - Masonry
+  - MMPopupView
+  - TBActionSheet
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
+  TBActionSheet: df0a576ea1286d57c5870a681965a8ef781ce600
+
+PODFILE CHECKSUM: 076108a7a1194db656878404092b3eda222398b2
+
+COCOAPODS: 1.2.1

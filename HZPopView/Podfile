@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+# ignoring warning from pods
+target ‘HZPopView’ do
+inhibit_all_warnings!
+pod 'MMPopupView'
+pod 'TBActionSheet'
+pod 'Masonry'
+end

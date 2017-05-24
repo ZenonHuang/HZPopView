@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259D903E1ED586780053601D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D903D1ED586780053601D /* main.m */; };
+		259D90411ED586780053601D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D90401ED586780053601D /* AppDelegate.m */; };
+		259D90441ED586780053601D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D90431ED586780053601D /* ViewController.m */; };
+		259D90471ED586780053601D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259D90451ED586780053601D /* Main.storyboard */; };
+		259D90491ED586780053601D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259D90481ED586780053601D /* Assets.xcassets */; };
+		259D904C1ED586780053601D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259D904A1ED586780053601D /* LaunchScreen.storyboard */; };
+		785D4783512D966C51827487 /* libPods-HZPopView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C417B6CA6CCDE06900453BBC /* libPods-HZPopView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		259D90391ED586780053601D /* HZPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		259D903D1ED586780053601D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		259D903F1ED586780053601D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		259D90401ED586780053601D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		259D90421ED586780053601D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		259D90431ED586780053601D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		259D90461ED586780053601D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259D90481ED586780053601D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259D904B1ED586780053601D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		259D904D1ED586780053601D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D24E32D667978A113A0C40 /* Pods-HZPopView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPopView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HZPopView/Pods-HZPopView.debug.xcconfig"; sourceTree = "<group>"; };
+		C417B6CA6CCDE06900453BBC /* libPods-HZPopView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HZPopView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9F9DEA42671E1AD18731E0 /* Pods-HZPopView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HZPopView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HZPopView/Pods-HZPopView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259D90361ED586780053601D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785D4783512D966C51827487 /* libPods-HZPopView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259D90301ED586780053601D = {
+			isa = PBXGroup;
+			children = (
+				259D903B1ED586780053601D /* HZPopView */,
+				259D903A1ED586780053601D /* Products */,
+				6A931124AB4C79695C0A5B9D /* Pods */,
+				84A40BA86A75A79C33A56F1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		259D903A1ED586780053601D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259D90391ED586780053601D /* HZPopView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259D903B1ED586780053601D /* HZPopView */ = {
+			isa = PBXGroup;
+			children = (
+				259D903F1ED586780053601D /* AppDelegate.h */,
+				259D90401ED586780053601D /* AppDelegate.m */,
+				259D90421ED586780053601D /* ViewController.h */,
+				259D90431ED586780053601D /* ViewController.m */,
+				259D90451ED586780053601D /* Main.storyboard */,
+				259D90481ED586780053601D /* Assets.xcassets */,
+				259D904A1ED586780053601D /* LaunchScreen.storyboard */,
+				259D904D1ED586780053601D /* Info.plist */,
+				259D903C1ED586780053601D /* Supporting Files */,
+			);
+			path = HZPopView;
+			sourceTree = "<group>";
+		};
+		259D903C1ED586780053601D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				259D903D1ED586780053601D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A931124AB4C79695C0A5B9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50D24E32D667978A113A0C40 /* Pods-HZPopView.debug.xcconfig */,
+				DE9F9DEA42671E1AD18731E0 /* Pods-HZPopView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84A40BA86A75A79C33A56F1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C417B6CA6CCDE06900453BBC /* libPods-HZPopView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259D90381ED586780053601D /* HZPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259D90501ED586780053601D /* Build configuration list for PBXNativeTarget "HZPopView" */;
+			buildPhases = (
+				9F288FCEC5398CB00FCAECED /* [CP] Check Pods Manifest.lock */,
+				259D90351ED586780053601D /* Sources */,
+				259D90361ED586780053601D /* Frameworks */,
+				259D90371ED586780053601D /* Resources */,
+				4BD4A35B835D461D29B3972C /* [CP] Embed Pods Frameworks */,
+				41CE77A55F6C9C80AE3FA6F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZPopView;
+			productName = HZPopView;
+			productReference = 259D90391ED586780053601D /* HZPopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259D90311ED586780053601D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zzgo;
+				TargetAttributes = {
+					259D90381ED586780053601D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 259D90341ED586780053601D /* Build configuration list for PBXProject "HZPopView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259D90301ED586780053601D;
+			productRefGroup = 259D903A1ED586780053601D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259D90381ED586780053601D /* HZPopView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259D90371ED586780053601D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259D904C1ED586780053601D /* LaunchScreen.storyboard in Resources */,
+				259D90491ED586780053601D /* Assets.xcassets in Resources */,
+				259D90471ED586780053601D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41CE77A55F6C9C80AE3FA6F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPopView/Pods-HZPopView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BD4A35B835D461D29B3972C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HZPopView/Pods-HZPopView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F288FCEC5398CB00FCAECED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259D90351ED586780053601D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259D90441ED586780053601D /* ViewController.m in Sources */,
+				259D90411ED586780053601D /* AppDelegate.m in Sources */,
+				259D903E1ED586780053601D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		259D90451ED586780053601D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259D90461ED586780053601D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		259D904A1ED586780053601D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259D904B1ED586780053601D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259D904E1ED586780053601D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		259D904F1ED586780053601D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259D90511ED586780053601D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D24E32D667978A113A0C40 /* Pods-HZPopView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HZPopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzgo.HZPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		259D90521ED586780053601D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9F9DEA42671E1AD18731E0 /* Pods-HZPopView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HZPopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzgo.HZPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259D90341ED586780053601D /* Build configuration list for PBXProject "HZPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259D904E1ED586780053601D /* Debug */,
+				259D904F1ED586780053601D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259D90501ED586780053601D /* Build configuration list for PBXNativeTarget "HZPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259D90511ED586780053601D /* Debug */,
+				259D90521ED586780053601D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259D90311ED586780053601D /* Project object */;
+}
