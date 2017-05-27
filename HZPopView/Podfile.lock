@@ -1,19 +1,22 @@
 PODS:
   - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
   - MMPopupView (1.7.2):
     - Masonry
   - TBActionSheet (1.5.3)
 
 DEPENDENCIES:
   - Masonry
+  - MBProgressHUD
   - MMPopupView
   - TBActionSheet
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
   TBActionSheet: df0a576ea1286d57c5870a681965a8ef781ce600
 
-PODFILE CHECKSUM: 076108a7a1194db656878404092b3eda222398b2
+PODFILE CHECKSUM: 6ff461ce266152cd3b51fe17696ad6245c9faf7f
 
 COCOAPODS: 1.2.1

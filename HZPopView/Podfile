@@ -6,4 +6,5 @@ inhibit_all_warnings!
 pod 'MMPopupView'
 pod 'TBActionSheet'
 pod 'Masonry'
+pod 'MBProgressHUD'
 end
