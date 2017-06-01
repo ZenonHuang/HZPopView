@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25964E671EDE9F9E005E938C /* HZPopItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 25964E661EDE9F9E005E938C /* HZPopItem.m */; };
 		259D903E1ED586780053601D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D903D1ED586780053601D /* main.m */; };
 		259D90411ED586780053601D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D90401ED586780053601D /* AppDelegate.m */; };
 		259D90441ED586780053601D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259D90431ED586780053601D /* ViewController.m */; };
@@ -21,8 +22,7 @@
 		25A2E1191ED7C8500068DEC5 /* HZPopCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A2E1181ED7C8500068DEC5 /* HZPopCategory.m */; };
 		25A2E11D1ED7D2CA0068DEC5 /* HZPopBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A2E11C1ED7D2CA0068DEC5 /* HZPopBackground.m */; };
 		25A2E1221ED7E5FA0068DEC5 /* TBActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A2E1201ED7E5FA0068DEC5 /* TBActionViewController.m */; };
-		25A2E1251ED7E6330068DEC5 /* HZTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A2E1241ED7E6330068DEC5 /* HZTestViewController.m */; };
-		25A2E1271ED80BDF0068DEC5 /* HZPopContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A2E1261ED80BDF0068DEC5 /* HZPopContainer.m */; };
+		25A2E1251ED7E6330068DEC5 /* HZShwoPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A2E1241ED7E6330068DEC5 /* HZShwoPopViewController.m */; };
 		25C233F01ED692B600A1E2EC /* UIViewController+HZAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C233EF1ED692B600A1E2EC /* UIViewController+HZAlert.m */; };
 		25C2340E1ED6BF2200A1E2EC /* HZPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C2340D1ED6BF2200A1E2EC /* HZPopViewController.m */; };
 		25C234111ED6BF7000A1E2EC /* HZPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C234101ED6BF7000A1E2EC /* HZPopView.m */; };
@@ -32,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25964E651EDE9F93005E938C /* HZPopItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZPopItem.h; sourceTree = "<group>"; };
+		25964E661EDE9F9E005E938C /* HZPopItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZPopItem.m; sourceTree = "<group>"; };
 		259D90391ED586780053601D /* HZPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		259D903D1ED586780053601D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		259D903F1ED586780053601D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,10 +60,8 @@
 		25A2E11E1ED7E2320068DEC5 /* HZMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZMacro.h; sourceTree = "<group>"; };
 		25A2E1201ED7E5FA0068DEC5 /* TBActionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBActionViewController.m; sourceTree = "<group>"; };
 		25A2E1211ED7E5FA0068DEC5 /* TBActionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBActionViewController.h; sourceTree = "<group>"; };
-		25A2E1231ED7E61E0068DEC5 /* HZTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZTestViewController.h; sourceTree = "<group>"; };
-		25A2E1241ED7E6330068DEC5 /* HZTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZTestViewController.m; sourceTree = "<group>"; };
-		25A2E1261ED80BDF0068DEC5 /* HZPopContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZPopContainer.m; sourceTree = "<group>"; };
-		25A2E1281ED80BF30068DEC5 /* HZPopContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZPopContainer.h; sourceTree = "<group>"; };
+		25A2E1231ED7E61E0068DEC5 /* HZShowPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZShowPopViewController.h; sourceTree = "<group>"; };
+		25A2E1241ED7E6330068DEC5 /* HZShwoPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZShwoPopViewController.m; sourceTree = "<group>"; };
 		25C233EE1ED692B600A1E2EC /* UIViewController+HZAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HZAlert.h"; sourceTree = "<group>"; };
 		25C233EF1ED692B600A1E2EC /* UIViewController+HZAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HZAlert.m"; sourceTree = "<group>"; };
 		25C2340C1ED6BF1500A1E2EC /* HZPopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZPopViewController.h; sourceTree = "<group>"; };
@@ -135,7 +135,6 @@
 			children = (
 				259D903D1ED586780053601D /* main.m */,
 			);
-			name = "Supporting Files";
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
@@ -146,17 +145,15 @@
 				25C233F11ED692E800A1E2EC /* MMPopup */,
 				25C233F21ED692F800A1E2EC /* TBAction */,
 			);
-			name = Demo;
 			path = Demo;
 			sourceTree = "<group>";
 		};
 		25A2E11F1ED7E5B50068DEC5 /* HZPop */ = {
 			isa = PBXGroup;
 			children = (
-				25A2E1231ED7E61E0068DEC5 /* HZTestViewController.h */,
-				25A2E1241ED7E6330068DEC5 /* HZTestViewController.m */,
+				25A2E1231ED7E61E0068DEC5 /* HZShowPopViewController.h */,
+				25A2E1241ED7E6330068DEC5 /* HZShwoPopViewController.m */,
 			);
-			name = HZPop;
 			path = HZPop;
 			sourceTree = "<group>";
 		};
@@ -170,7 +167,6 @@
 				259D90721ED679510053601D /* MMPopViewController.h */,
 				259D90701ED679430053601D /* MMPopViewController.m */,
 			);
-			name = MMPopup;
 			path = MMPopup;
 			sourceTree = "<group>";
 		};
@@ -180,7 +176,6 @@
 				25A2E1211ED7E5FA0068DEC5 /* TBActionViewController.h */,
 				25A2E1201ED7E5FA0068DEC5 /* TBActionViewController.m */,
 			);
-			name = TBAction;
 			path = TBAction;
 			sourceTree = "<group>";
 		};
@@ -194,16 +189,15 @@
 				25A2E11C1ED7D2CA0068DEC5 /* HZPopBackground.m */,
 				25A2E11A1ED7C8650068DEC5 /* HZPopCategory.h */,
 				25A2E1181ED7C8500068DEC5 /* HZPopCategory.m */,
-				25A2E1281ED80BF30068DEC5 /* HZPopContainer.h */,
-				25A2E1261ED80BDF0068DEC5 /* HZPopContainer.m */,
 				25C2340F1ED6BF6400A1E2EC /* HZPopView.h */,
 				25C234101ED6BF7000A1E2EC /* HZPopView.m */,
 				25C2340C1ED6BF1500A1E2EC /* HZPopViewController.h */,
 				25C2340D1ED6BF2200A1E2EC /* HZPopViewController.m */,
 				25FA4FD61ED928EA00678477 /* HZSheetView.h */,
 				25FA4FD71ED928F600678477 /* HZSheetView.m */,
+				25964E651EDE9F93005E938C /* HZPopItem.h */,
+				25964E661EDE9F9E005E938C /* HZPopItem.m */,
 			);
-			name = HZPopView;
 			path = HZPopView;
 			sourceTree = "<group>";
 		};
@@ -361,9 +355,9 @@
 				25C2340E1ED6BF2200A1E2EC /* HZPopViewController.m in Sources */,
 				25C233F01ED692B600A1E2EC /* UIViewController+HZAlert.m in Sources */,
 				25FA4FD81ED928F600678477 /* HZSheetView.m in Sources */,
-				25A2E1271ED80BDF0068DEC5 /* HZPopContainer.m in Sources */,
+				25964E671EDE9F9E005E938C /* HZPopItem.m in Sources */,
 				25FA4FD51ED928DD00678477 /* HZAlertView.m in Sources */,
-				25A2E1251ED7E6330068DEC5 /* HZTestViewController.m in Sources */,
+				25A2E1251ED7E6330068DEC5 /* HZShwoPopViewController.m in Sources */,
 				25A2E11D1ED7D2CA0068DEC5 /* HZPopBackground.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

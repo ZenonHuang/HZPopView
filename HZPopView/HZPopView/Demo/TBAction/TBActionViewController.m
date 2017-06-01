@@ -91,7 +91,8 @@
                 UIView *customeView=[UIView new];
                 
                 customeView.backgroundColor=[UIColor orangeColor];
-                //[actionSheet addSubview:customeView];
+                [actionSheet addSubview:customeView];
+                
                 [customeView mas_makeConstraints:^(MASConstraintMaker *make) {
                     //make.center.equalTo(actionSheet);
                     //make.size.mas_equalTo(CGSizeMake(100, 100));

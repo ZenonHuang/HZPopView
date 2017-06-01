@@ -16,7 +16,7 @@
 	</dict>
 	<dict>
 		<key>vc</key>
-		<string>HZTestViewController</string>
+		<string>HZShowPopViewController</string>
 		<key>title</key>
 		<string>HZPopView</string>
 	</dict>

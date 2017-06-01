@@ -8,14 +8,14 @@
 
 #import <Masonry.h>
 #import "NSObject+HUD.h"
+#import "HZShowPopViewController.h"
 #import "HZPopView.h"
-#import "HZTestViewController.h"
 
-@interface HZTestViewController ()<UITableViewDelegate,UITableViewDataSource>
+@interface HZShowPopViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *tableView;
 @end
 
-@implementation HZTestViewController
+@implementation HZShowPopViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
