@@ -20,7 +20,7 @@ static NSString *DataCellIdentifier      = @"DataCellTableIdentifier";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.title=@"HZImageFilter";
+    self.navigationItem.title=@"HZPopView";
     
     NSString *mineListPath = [[NSBundle mainBundle] pathForResource:@"dataList" ofType:@"plist"];
     self.totalArray = [[NSArray alloc] initWithContentsOfFile:mineListPath];
